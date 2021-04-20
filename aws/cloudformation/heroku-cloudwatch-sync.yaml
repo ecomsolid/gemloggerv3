@@ -5,7 +5,7 @@ Description: Serverless function to translate Heroku Log syncs to Cloudwatch Log
 Parameters:
   DeployBucket:
     Type: String
-    Default: heroku-cloudwatch-sync-app
+    Default: heroku-cloudwatch-sync-app-gempagesv5-staging-dev
     Description: name for this deployment of Heroku Cloudwatch app
 
 Resources:
